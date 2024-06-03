@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="518.0" style="-fx-background-color: DARKGREEN; -fx-border-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brofx.NumberGuessingController">
+   <children>
+      <Label alignment="CENTER" layoutX="99.0" layoutY="27.0" text="🔢NUMBER GUESSING GAME🔎" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="152.0" layoutY="58.0" text="W3LC0M2 T0 TH3 G4M3 0F LUCK" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="80.0" text="HERE ARE THE RULES:" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="131.0" layoutY="103.0" prefHeight="80.0" prefWidth="272.0" text="There's a whole number between 1 and 100&#10;You have ten(10) attempts to guess it.&#10;You currently have 100 points.&#10;You will lose 10 points for every wrong attempt." wrapText="true">
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets></TextArea>
+      <TextField fx:id="guessNumber" editable="false" layoutX="184.0" layoutY="279.0" prefHeight="25.0" prefWidth="150.0" promptText="Enter your lucky number" />
+      <Button id="sendGuess" fx:id="sendGuess" disable="true" layoutX="205.0" layoutY="315.0" mnemonicParsing="false" onAction="#setGuess" style="-fx-background-color: BLUE;" text="Send Number" textFill="#eeff00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label id="score" fx:id="score" layoutX="131.0" layoutY="191.0" text="SCORE : 100" textFill="WHITE" />
+      <Label id="attempts" fx:id="Playerattempts" layoutX="227.0" layoutY="191.0" text="NUMBER OF ATTEMPTS LEFT : 10" textFill="WHITE" />
+      <ImageView fitHeight="199.0" fitWidth="363.0" layoutX="88.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../guess-the-number.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="308.0" layoutY="533.0" stroke="WHITE" strokeType="INSIDE" width="117.0" />
+      <Button fx:id="startBtn" layoutX="184.0" layoutY="235.0" mnemonicParsing="false" onAction="#startGame" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: YELLOW;" text="Start Game" textFill="#000dff" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

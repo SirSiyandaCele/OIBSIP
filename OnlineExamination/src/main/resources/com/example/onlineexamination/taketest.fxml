@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="561.0" style="-fx-border-color: GREEN; -fx-border-radius: 5; -fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlineexamination.takeTestController">
+   <children>
+      <ImageView fitHeight="117.0" fitWidth="326.0" layoutX="118.0" layoutY="3.0" pickOnBounds="true" preserveRatio="false" style="-fx-effect-border-width: 5; -fx-effect-borde-rcolor: GREEN;">
+         <image>
+            <Image url="@../../../J%20&amp;%20M%20A%20C%20A%20D%20E%20M%20Y%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userID" alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="149.0" prefHeight="17.0" prefWidth="193.0" text="Label" />
+      <Label fx:id="user" alignment="CENTER" contentDisplay="CENTER" layoutX="180.0" layoutY="130.0" prefHeight="19.0" prefWidth="203.0" text="Label">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="277.0" layoutX="101.0" layoutY="212.0" stroke="GREEN" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="358.0" />
+      <Label layoutX="184.0" layoutY="268.0" text="T E S T   Y O U R   K N O W L E D G E" />
+      <Label layoutX="179.0" layoutY="222.0" text="C H O O S E   A   S U B J E C T   Q U I Z" />
+      <Label layoutX="276.0" layoutY="245.0" text="i i">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="mathematicsTest" layoutX="118.0" layoutY="432.0" mnemonicParsing="false" onAction="#chooseMathematics" prefHeight="33.0" prefWidth="138.0" style="-fx-background-color: GREEN; -fx-border-radius: 5; -fx-background-radius: 5;" text="M A T H S   Q U I Z" textFill="WHITE" />
+      <Button fx:id="javaTest" layoutX="306.0" layoutY="432.0" mnemonicParsing="false" onAction="#chooseJava" prefHeight="33.0" prefWidth="138.0" style="-fx-background-color: GREEN; -fx-border-radius: 5; -fx-background-radius: 5;" text="J A V A   Q U I Z  " textFill="WHITE" />
+      <Button fx:id="back" layoutX="327.0" layoutY="502.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="108.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-background-color: green;" text="B A C K" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="117.0" layoutX="118.0" layoutY="307.0" stroke="GREEN" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="138.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="117.0" layoutX="306.0" layoutY="307.0" stroke="GREEN" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="138.0" />
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutX="121.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mathematics.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="132.0" layoutX="322.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../java-logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back1" layoutX="136.0" layoutY="502.0" mnemonicParsing="false" onAction="#quit" prefHeight="25.0" prefWidth="108.0" style="-fx-background-color: RED; -fx-border-radius: 5; -fx-background-radius: 5;" text="Q U I T" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+/* styles.css */
+.chart-pie .default-color0.chart-pie-data {
+    -fx-pie-color: red;
+}
+
+.chart-pie .default-color1.chart-pie-data {
+    -fx-pie-color: green;
+}
+

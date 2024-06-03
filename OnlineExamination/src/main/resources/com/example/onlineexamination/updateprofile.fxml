@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="561.0" style="-fx-border-color: GREEN; -fx-border-radius: 5; -fx-background-color: WHITE; -fx-background-radius: 5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlineexamination.ProfileUpdateController">
+   <children>
+      <ImageView fitHeight="117.0" fitWidth="326.0" layoutX="110.0" layoutY="3.0" pickOnBounds="true" preserveRatio="false" style="-fx-effect-border-width: 5; -fx-effect-borde-rcolor: GREEN;">
+         <image>
+            <Image url="@../../../J%20&amp;%20M%20A%20C%20A%20D%20E%20M%20Y%20(1).png" />
+         </image>
+      </ImageView>
+
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="453.0" layoutX="47.0" layoutY="127.0" stroke="GREEN" strokeLineCap="ROUND" strokeType="INSIDE" width="448.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="84.0" layoutY="184.0" stroke="GREEN" strokeLineCap="ROUND" strokeType="INSIDE" width="378.0" />
+      <Label layoutX="134.0" layoutY="139.0" text="S T U D E N T   R E G I S T R A T I O N">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="191.0" text="P E R S O N A L   D E T A I L S" />
+      <TextField fx:id="firstName" editable="false" layoutX="105.0" layoutY="244.0" prefHeight="25.0" prefWidth="138.0" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="105.0" layoutY="219.0" text="First Name" />
+      <TextField fx:id="lastName" editable="false" layoutX="304.0" layoutY="243.0" prefHeight="25.0" prefWidth="138.0" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="304.0" layoutY="219.0" text="Last Name" />
+      <TextField fx:id="idNumber" editable="false" layoutX="105.0" layoutY="302.0" prefHeight="25.0" prefWidth="138.0" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="105.0" layoutY="277.0" text="ID Number" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="84.0" layoutY="367.0" stroke="GREEN" strokeLineCap="ROUND" strokeType="INSIDE" width="378.0" />
+      <Label layoutX="195.0" layoutY="374.0" text="C O N T A C T   D E T A I L S" />
+      <TextField fx:id="cellNumber" layoutX="105.0" layoutY="427.0" prefHeight="25.0" prefWidth="138.0" promptText="10-digit number" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="105.0" layoutY="402.0" text="Contact Number" />
+      <TextField fx:id="email" layoutX="304.0" layoutY="427.0" prefHeight="25.0" prefWidth="138.0" promptText="someone@company.com" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="304.0" layoutY="402.0" text="Email Address" />
+      <TextField fx:id="passWord1" layoutX="105.0" layoutY="485.0" prefHeight="25.0" prefWidth="138.0" promptText="6-12 character password" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="105.0" layoutY="460.0" text="Password" />
+      <TextField fx:id="passWord2" layoutX="304.0" layoutY="484.0" prefHeight="25.0" prefWidth="138.0" promptText="6-12 character password" style="-fx-border-color: GREEN; -fx-border-radius: 5;" />
+      <Label layoutX="304.0" layoutY="459.0" text="Confirm password" />
+      <Button fx:id="updateButton" layoutX="332.0" layoutY="536.0" mnemonicParsing="false" onAction="#updateProfile" prefHeight="25.0" prefWidth="108.0" style="-fx-background-color: GREEN; -fx-border-radius: 5; -fx-background-radius: 5;" text="U P D A T E" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="backHome" layoutX="105.0" layoutY="536.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="108.0" style="-fx-background-color: RED; -fx-border-radius: 5; -fx-background-radius: 5;" text="B A C K" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+
+   </children>
+</AnchorPane>

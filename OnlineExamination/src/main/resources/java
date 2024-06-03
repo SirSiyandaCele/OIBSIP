@@ -1,0 +1,496 @@
+What is the size of an `int` data type in Java?
+4 bytes
+8 bytes
+2 bytes
+1 byte
+4 bytes
+
+Which of the following is not a Java feature?
+Object-oriented
+Use of pointers
+Portable
+Dynamic and Extensible
+Use of pointers
+
+Which of these cannot be used for a variable name in Java?
+identifier
+keyword
+identifiers
+none of the mentioned
+keyword
+
+What is the default value of a local variable?
+null
+0
+undefined
+Garbage value
+undefined
+
+Which method can be used to find the length of a string in Java?
+getSize()
+length()
+getLength()
+size()
+length()
+
+Which of the following is a valid declaration of a char?
+char ch = '\utea';
+char ca = 'tea';
+char cr = \u0223;
+char cc = '\itea';
+char ch = '\utea';
+
+Which of the following is a valid long literal?
+0x99fffa
+123456L
+0x99fffaL
+all of the mentioned
+all of the mentioned
+
+What is the default value of the boolean data type?
+true
+false
+null
+not defined
+false
+
+Which of these keywords is used to prevent inheritance?
+super
+constant
+final
+static
+final
+
+Which of these classes is not a part of Java's collection framework?
+List
+ArrayList
+LinkedList
+Hashtable
+ArrayList
+
+Which package contains the Random class?
+java.util
+java.lang
+java.io
+java.net
+java.util
+
+Which of the following is a marker interface?
+Serializable
+Runnable
+Remote
+EventListener
+Serializable
+
+Which of these classes are thread-safe?
+StringBuilder
+StringBuffer
+ArrayList
+HashMap
+StringBuffer
+
+What is the return type of the hashCode() method in the Object class?
+int
+Object
+long
+void
+int
+
+given that "int x = 5 * 4 % 3;", what is the output of "System.out.println(x);"
+0
+1
+2
+3
+2
+
+Which of these exceptions will be thrown if we try to access the element of an array that is out of bounds?
+ClassNotFoundException
+ArrayIndexOutOfBoundsException
+ArithmeticException
+NullPointerException
+ArrayIndexOutOfBoundsException
+
+Which of these statements is correct about a constructor?
+It is used to create an object
+It can be called explicitly
+It cannot be overloaded
+It can return a value
+It is used to create an object
+
+Given that String str1 = "Java" & String str2 = "Java";what is the output of System.out.println(str1 == str2)?
+true
+false
+Compilation error
+Runtime error
+true
+
+Which of these interfaces is not a part of Java's collection framework?
+List
+Set
+SortedMap
+Array
+Array
+
+Which of the following is used to find and fix bugs in Java programs?
+JVM
+JRE
+JDK
+JDB
+JDB
+
+Which of the following is not a method of the `java.util.ArrayList` class?
+add()
+trimToSize()
+ensureCapacity()
+setSize()
+setSize()
+
+What is the difference between `==` and `equals()` in Java?
+`==` checks for reference equality, `equals()` checks for value equality
+`==` checks for value equality, `equals()` checks for reference equality
+Both check for reference equality
+Both check for value equality
+`==` checks for reference equality, `equals()` checks for value equality
+
+Which method is used to convert an object into a byte stream in Java?
+Serialization
+Externalization
+Serialization and Externalization
+None of the above
+Serialization
+
+Given that int[] arr = {1, 2, 3, 4}, what is the output of System.out.println(arr[1] + arr[3]);?
+6
+5
+7
+4
+6
+
+Which of these methods belongs to the Thread class and not the Runnable interface?
+run()
+start()
+stop()
+suspend()
+start()
+
+Which of the following is true about a synchronized method?
+It can be called simultaneously from multiple threads
+It can be called only by one thread at a time
+It can be called without any restrictions
+It can be called by multiple threads only if they hold the same lock
+It can be called only by one thread at a time
+
+Given that String s1 = new String("HELLO") and String s2 = s1.toLowerCase(), what is the output of System.out.println(s1 == s2);
+true
+false
+Compilation error
+Runtime error
+Compilation error
+
+Which of these classes is not part of Java's standard library?
+java.util.ArrayList
+java.util.LinkedList
+java.util.HashMap
+java.util.SortedList
+java.util.SortedList
+
+Which of these methods can be used to make the main thread wait for another thread to finish in Java?
+wait()
+notify()
+join()
+sleep()
+join()
+
+What is the time complexity of accessing an element in an ArrayList?
+O(1)
+O(n)
+O(log n)
+O(n log n)
+O(1)
+
+Which of these interfaces does the `HashMap` class implement?
+List
+Set
+Map
+Collection
+Map
+
+Which of these methods is used to check if a string starts with a specific prefix?
+startsWith()
+beginsWith()
+starts()
+checkStart()
+startsWith()
+
+Which of these collections guarantees that its elements will be sorted in ascending order?
+HashSet
+TreeSet
+LinkedHashSet
+None of the mentioned
+TreeSet
+
+What is the return type of the `hashCode()` method in the `Object` class?
+int
+Object
+long
+void
+int
+
+Which of the following is not a part of Java's exception hierarchy?
+Throwable
+Exception
+RuntimeException
+Error
+Error
+Which of these methods is not present in the `java.io.File` class?
+createNewFile()
+mkdir()
+delete()
+setReadOnly()
+setReadOnly()
+
+Which method is used to bind a socket to a local port number?
+bind()
+listen()
+accept()
+connect()
+bind()
+
+Given that int x = 10 and int y = x++, what is the output of System.out.println(x + ", " + y)?
+10, 10
+11, 10
+10, 11
+11, 11
+11, 10
+
+Which keyword is used to define a constant in Java?
+constant
+final
+static
+const
+final
+
+Which of the following is not an access modifier in Java?
+protected
+private
+package
+public
+package
+
+What is the purpose of the `toString()` method in Java?
+To return a string representation of the object
+To convert a string to an object
+To compare two strings
+To check if a string is null
+To return a string representation of the object
+
+Which of these statements is correct about constructors in Java?
+Constructors can have a return type
+Constructors can be inherited
+Constructors can be abstract
+Constructors cannot be abstract
+Constructors cannot be abstract
+
+What is the output of the following code?**int a = 5, b = 10 and int min = (a < b) ? a : b; what is the output of System.out.println(min);
+5
+10
+0
+15
+5
+
+Which of these methods is used to write in a file in Java?
+read()
+write()
+append()
+insert()
+write()
+
+Which of these keywords is used to manually throw an exception?
+throw
+throws
+catch
+throwable
+run()
+
+Which method must be implemented by all threads in Java?
+start()
+run()
+stop()
+execute()
+run()
+
+Which of these methods is used to find the highest value of two numbers in Java?
+max()
+high()
+higher()
+greater()
+max()
+
+Which method in Java is used to perform a deep copy of an object?
+clone()
+copy()
+deepcopy()
+None of the above
+clone()
+
+Which of the following is not a primitive data type in Java?
+int
+float
+string
+char
+string
+
+Which of these methods is used to read a string from the console in Java?
+readLine()
+readString()
+read()
+readInput()
+readLine()
+
+Which of the following is not a feature of the `java.util.HashMap` class?
+Allows null keys and values
+Maintains insertion order
+Provides constant-time performance for basic operations
+Allows one null key and multiple null values
+Maintains insertion order
+
+Which of these is not a method of the `java.lang.String` class?
+length()
+toString()
+append()
+concat()
+append()
+
+Which of the following is used to implement abstraction in Java?
+Abstract classes
+Interfaces
+Both a and b
+None of the above
+Both a and b
+
+Which of these methods can be used to get the current time in milliseconds?
+System.currentTimeMillis()
+System.getTime()
+System.timeMillis()
+System.getCurrentTime()
+System.currentTimeMillis()
+
+What does JVM stand for?
+Java Virtual Machine
+Java Virtual Method
+Java Variable Method
+Java Variable Machine
+Java Virtual Machine
+
+Which keyword is used to define a constant in Java?
+final
+const
+static
+define
+final
+
+If int x = 5 and int y = 2;what is the output of System.out.println(x / y)
+2
+2.5
+2.0
+Compilation Error
+2
+
+Which of the following is not a valid primitive data type in Java?
+int
+float
+string
+char
+string
+
+What is the result of the expression `true && false`?
+true
+false
+Compilation Error
+Runtime Error
+false
+
+How do you declare a variable in Java?
+variable myVariable;
+new variable myVariable;
+int myVariable;
+declare myVariable;
+int myVariable;
+
+What is the default value of an `int` in Java?
+0
+1
+-1
+null
+0
+
+Which of the following is a loop construct in Java?
+repeat
+for
+until
+if
+for
+
+Given that String text = "Java", and text += " is cool!", what is the output of System.out.println(text);
+Java
+is cool!
+Java is cool!
+Compilation Error
+Java is cool!
+
+What does the `static` keyword mean in Java?
+It indicates that a variable or method belongs to the class itself, rather than to instances of the class.
+It indicates that a variable or method can only be accessed by other classes in the same package.
+It indicates that a variable or method is immutable and cannot be changed.
+It indicates that a variable or method can only be accessed within the same method or block of code.
+It indicates that a variable or method belongs to the class itself, rather than to instances of the class.
+
+What is the correct way to declare a method in Java that does not return any value?
+void methodName() {}
+int methodName() {}
+methodName() {}
+methodName(void) {}
+void methodName() {}
+
+Which of the following statements is true about Java garbage collection?
+Garbage collection guarantees that all unused objects will be immediately removed from memory.
+Garbage collection is performed only when the `System.gc()` method is called explicitly.
+Garbage collection runs on a low priority background thread.
+Garbage collection is not necessary in Java because Java automatically manages memory.
+Garbage collection runs on a low priority background thread.
+
+What is the purpose of the `this` keyword in Java?
+It refers to the superclass of the current class.
+It refers to the object itself.
+It refers to the subclass of the current class.
+It refers to the parent class.
+It refers to the object itself.
+
+Which of the following is a valid way to initialize a Java array?
+`int[] numbers = new int[3] {1, 2, 3};`
+`int[] numbers = {1, 2, 3};`
+`int[3] numbers = {1, 2, 3};`
+`int numbers[] = new int[] {1, 2, 3};`
+`int[] numbers = {1, 2, 3};`
+
+What is the correct way to declare a subclass in Java?
+`class Subclass : Superclass {}`
+`class Subclass extends Superclass {}`
+`class Superclass : Subclass {}`
+`class Superclass extends Subclass {}'
+'class Subclass extends Superclass {}'
+
+What does the `break` statement do in Java?
+Exits the current loop or switch statement.
+Skips the rest of the code in the current loop iteration and starts the next iteration.
+Throws an exception to exit the program.
+Continues to the next case in a switch statement.
+Exits the current loop or switch statement.
+
+Which of the following is not a valid Java identifier?
+`myVariable`
+`my_variable`
+`my-variable`
+`myVariable123`
+`my-variable`
+
