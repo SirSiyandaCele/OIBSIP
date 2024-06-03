@@ -19,7 +19,7 @@ import java.util.Random;
 
 public class NumberGuessingController{
     public int lowerBound = 1;
-    public int upperBound = 40;
+    public int upperBound = 100;
     SecureRandom secureRandom = new SecureRandom();
     public int randomNumber;
 
@@ -80,7 +80,7 @@ public class NumberGuessingController{
                 try{
                     guess = Integer.parseInt(guessNumber.getText());
                     System.out.println(guess);
-                    if((guess > 40) || (guess < 1)){
+                    if((guess > 100) || (guess < 1)){
                         Playerattempts.setText("NUMBER OF ATTEMPTS LEFT : "+ maxAttempts);
                         guessNumber.clear();
                         Alert s = new Alert(Alert.AlertType.ERROR,"ENTER A NUMBER BETWEEN 1 AND 100", ButtonType.OK);
