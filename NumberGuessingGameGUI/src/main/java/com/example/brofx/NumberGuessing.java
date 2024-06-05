@@ -23,24 +23,6 @@ public class NumberGuessing extends Application { //The application class is the
             stage.setScene(scene);
             stage.show(); //to show the stage
 
-            //Scenes and adding content
-            //SET GAME NAME
-        /*Text gameTitle = new Text( "🔎NUMBER GUESSING GAME🔢");
-        gameTitle.setX(150);
-        gameTitle.setY(25);
-        gameTitle.setFont(Font.font("Ariel", FontWeight.BOLD,20));
-        gameTitle.setFill(Color.WHITE);
-
-        //SET GAME WELCOME
-        Text welcome = new Text( "W3LC0M3 TH3 G4M3 0F LUCK");
-        welcome.setX(200);
-        welcome.setY(50);
-        welcome.setTextAlignment(TextAlignment.CENTER);
-        welcome.setFont(Font.font("Ariel",FontWeight.BOLD, FontPosture.ITALIC,14));
-        welcome.setFill(Color.WHITE);
-
-        //SET GAME RULES*/
-
 
 
         }
